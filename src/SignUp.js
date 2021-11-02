@@ -30,6 +30,7 @@ const SignUp = ({ usersRef }) => {
 					<FormLabel>Name: </FormLabel>
 					<Form.Control
 						type='text'
+						required
 						value={name}
 						placeholder='Enter Name'
 						onChange={e => setName(e.target.value)}
@@ -39,6 +40,7 @@ const SignUp = ({ usersRef }) => {
 					<FormLabel>Address: </FormLabel>
 					<Form.Control
 						type='address'
+						required
 						value={address}
 						placeholder='Enter Address'
 						onChange={e => setAddress(e.target.value)}
@@ -48,6 +50,7 @@ const SignUp = ({ usersRef }) => {
 					<FormLabel>Precint No. </FormLabel>
 					<Form.Control
 						type='number'
+						required
 						value={precint}
 						placeholder='000000'
 						onChange={e => setPrecint(e.target.value)}
@@ -57,6 +60,7 @@ const SignUp = ({ usersRef }) => {
 					<FormLabel>Contact #: </FormLabel>
 					<Form.Control
 						type='number'
+						required
 						value={contact}
 						placeholder='0xxx xxx xxxx'
 						onChange={e => setContact(e.target.value)}
