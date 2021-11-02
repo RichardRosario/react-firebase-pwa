@@ -1,0 +1,122 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.App-header {
+	background-color: #373b40;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+h1 {
+	margin: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding: 0;
+	font-size: 1.5em;
+}
+.signups {
+	font-size: 10px;
+}
+/* Form */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.form-container {
+	box-sizing: border-box;
+	width: auto;
+	max-width: 700px;
+	overflow: hidden;
+}
+img.saraAll-logo {
+	width: 100px;
+}
+
+label {
+	display: inline-block;
+}
+.form-label {
+	margin-bottom: 0.5rem;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+	-webkit-appearance: button;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+	cursor: pointer;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 0.55rem 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #272b30;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	appearance: none;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #aaa;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: 0.45rem 1rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #1d642e;
+	border-color: #0a4518;
+	font-size: x-large;
+	border-radius: 10px;
+	margin-top: 5px;
+	width: 100%;
+}
